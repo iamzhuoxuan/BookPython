@@ -12,7 +12,7 @@ Welcome to Python101's documentation!
    beginning/index
    base/index
    tool/index
-   Py101.ipynb
+   index.ipynb
 
 
 Indices and tables

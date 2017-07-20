@@ -31,7 +31,11 @@
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = ['sphinx.ext.autodoc']
-extensions = ['nbsphinx']
+extensions = [
+    'nbsphinx',
+    'sphinx.ext.mathjax',
+]
+exclude_patterns = ['_build', '**.ipynb_checkpoints']
 extensions = ['IPython.sphinxext.ipython_console_highlighting']
 
 # Add any paths that contain templates here, relative to this directory.
