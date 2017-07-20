@@ -8,16 +8,14 @@ Welcome to Python101's documentation!
 
 .. toctree::
    :maxdepth: 2
-   :glob:
    
    beginning/index
    base/index
    tool/index
+   Py101.ipynb
 
 
 Indices and tables
 ==================
 
 * :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
