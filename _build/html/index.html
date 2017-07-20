@@ -156,7 +156,41 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="welcome-to-python101-s-documentation">
+  
+<style>
+/* CSS overrides for sphinx_rtd_theme */
+
+/* 24px margin */
+.nbinput.nblast,
+.nboutput.nblast {
+    margin-bottom: 19px;  /* padding has already 5px */
+}
+
+/* ... except between code cells! */
+.nblast + .nbinput {
+    margin-top: -19px;
+}
+
+/* nice headers on first paragraph of info/warning boxes */
+.admonition .first {
+    margin: -12px;
+    padding: 6px 12px;
+    margin-bottom: 12px;
+    color: #fff;
+    line-height: 1;
+    display: block;
+}
+.admonition.warning .first {
+    background: #f0b37e;
+}
+.admonition.note .first {
+    background: #6ab0de;
+}
+.admonition > p:before {
+    margin-right: 4px;  /* make room for the exclamation icon */
+}
+</style>
+<div class="section" id="welcome-to-python101-s-documentation">
 <h1>Welcome to Python101&#8217;s documentation!<a class="headerlink" href="#welcome-to-python101-s-documentation" title="永久链接至标题">¶</a></h1>
 <div class="toctree-wrapper compound">
 <ul>
@@ -168,10 +202,20 @@
 <li class="toctree-l2"><a class="reference internal" href="beginning/05_seaborn.html">5. 数据绘图（Seaborn)</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="base/index.html">基础篇</a><ul class="simple">
+<li class="toctree-l1"><a class="reference internal" href="base/index.html">基础篇</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="base/01_linux.html">1. Linux 基础</a></li>
+<li class="toctree-l2"><a class="reference internal" href="base/02_ipython.html">2. Jupyter 基础</a></li>
+<li class="toctree-l2"><a class="reference internal" href="base/03_numpy.html">3. 数值计算（Numpy）</a></li>
+<li class="toctree-l2"><a class="reference internal" href="base/04_matplotlib.html">4. 数据绘图（Matplotlib）</a></li>
+<li class="toctree-l2"><a class="reference internal" href="base/05_seaborn.html">5. 数据绘图（Seaborn)</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="tool/index.html">工具篇</a><ul class="simple">
+<li class="toctree-l1"><a class="reference internal" href="tool/index.html">工具篇</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="tool/01_linux.html">1. Linux 基础</a></li>
+<li class="toctree-l2"><a class="reference internal" href="tool/02_ipython.html">2. Jupyter 基础</a></li>
+<li class="toctree-l2"><a class="reference internal" href="tool/03_numpy.html">3. 数值计算（Numpy）</a></li>
+<li class="toctree-l2"><a class="reference internal" href="tool/04_matplotlib.html">4. 数据绘图（Matplotlib）</a></li>
+<li class="toctree-l2"><a class="reference internal" href="tool/05_seaborn.html">5. 数据绘图（Seaborn)</a></li>
 </ul>
 </li>
 </ul>
