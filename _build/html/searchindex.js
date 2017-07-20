@@ -1,0 +1,1 @@
+Search.setIndex({docnames:["index"],envversion:50,filenames:["index.rst"],objects:{},objnames:{},objtypes:{},terms:{"\u641c\u7d22\u9875\u9762":0,"\u6a21\u5757\u7d22\u5f15":0,"\u7d22\u5f15":0},titles:["Welcome to Python101&#8217;s documentation!"],titleterms:{document:0,indic:0,python101:0,tabl:0,welcom:0}})
