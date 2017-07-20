@@ -14,4 +14,4 @@
     03_numpy
     04_matplotlib
     05_seaborn
-	python101
+	06_python101.ipynb
