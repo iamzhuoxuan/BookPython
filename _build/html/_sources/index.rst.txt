@@ -8,8 +8,11 @@ Welcome to Python101's documentation!
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
-
+   :glob:
+   
+   beginning/index
+   base/index
+   tool/index
 
 
 Indices and tables
